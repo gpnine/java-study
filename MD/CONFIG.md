@@ -1,5 +1,5 @@
 # 相关配置
-- maven配置
+### maven配置
 在maven的apache-maven/confsetting.xml中配置仓库路径
 ```
 <localRepository>改成你的路径</localRepository>
@@ -7,7 +7,7 @@
 - [checkstyle.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/checkstyle.xml)  用于代码规范，在IDEA上安装插件，配置
 - [.gitignore.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/.gitignore)  用于代码提交时忽略一些文件不予提交
 
-* jndi连接
+### jndi连接
 <code>[相关链接](https://www.cnblogs.com/xdp-gacl/p/4040019.html)</code>
 ```
 <!-- 在tomcatde的lib文件夹下添加druid-1.1.12.jar和mysql-connector-java-6.0.6.jar -->
@@ -38,7 +38,7 @@ DataSource dataSource = (DataSource) context.lookup(this.jndiName);
 ```
 
 
-- jdbc链接
+### jdbc链接
 ```
 //pom配置
 <dependency>
