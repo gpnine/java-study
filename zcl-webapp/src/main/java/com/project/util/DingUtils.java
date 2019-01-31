@@ -1,6 +1,7 @@
 package com.project.util;
 
 import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.StringUtils;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Mac;
