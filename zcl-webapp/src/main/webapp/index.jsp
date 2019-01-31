@@ -21,7 +21,7 @@
     * var goto = encodeURIComponent('https://oapi.dingtalk.com/connect/oauth2/sns_authorize?appid=appid&response_type=code&scope=snsapi_login&state=STATE&redirect_uri='+url)
     */
     var appid = 'dingoamnvms8eqby0op9se';
-    var redirect_uri = 'http://127.0.0.1:8086/home.jsp';
+    var redirect_uri = 'http://127.0.0.1:8086/user/login';
     var url = 'https://oapi.dingtalk.com/connect/oauth2/sns_authorize?appid=' + appid +
         '&response_type=code&scope=snsapi_login&state=STATE&redirect_uri=' + redirect_uri;
     console.log(url);
