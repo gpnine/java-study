@@ -14,6 +14,7 @@
     <table class="table">
         <thead>
             <th>${resultJson}</th>
+            <th>${list}</th>
         </thead>
     </table>
 </body>

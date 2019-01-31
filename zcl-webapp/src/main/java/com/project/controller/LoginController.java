@@ -2,6 +2,7 @@ package com.project.controller;
 
 import com.project.entity.User;
 import com.project.util.DingUtils;
+import com.project.util.JNDIConnect;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpPost;
@@ -25,6 +26,8 @@ import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 /**
  * JAVAWeb-Advanced .
@@ -39,6 +42,8 @@ public class LoginController {
 
 	@Autowired
 	private DingUtils dingUtils;
+	@Autowired
+	private JNDIConnect jndiConnect;
 
 	private static Logger LOGGER = LoggerFactory.getLogger(LoginController.class);
 
@@ -74,7 +79,16 @@ public class LoginController {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
+		List<Map<String, Object>> list = jndiConnect.jndiConnect();
+		model.addAttribute("list", list);
 		model.addAttribute("resultJson", resultJson);
+		return "home";
+	}
+
+	@RequestMapping(value = "/jndi", method = RequestMethod.GET)
+	public String testJndi(Model model) {
+		List<Map<String, Object>> list = jndiConnect.jndiConnect();
+		model.addAttribute("list", list);
 		return "home";
 	}
 }

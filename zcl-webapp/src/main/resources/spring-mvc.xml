@@ -12,6 +12,8 @@
     <!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
     <context:component-scan base-package="com.project.controller" />
     <context:component-scan base-package="com.project.util" />
+    <context:component-scan base-package="com.project.spring" />
+    <context:property-placeholder location="classpath:env.properties"/>
     <!-- 扩充了注解驱动，可以将请求参数绑定到控制器参数 -->
     <mvc:annotation-driven/>
     <!-- 静态资源处理  css js imgs -->
