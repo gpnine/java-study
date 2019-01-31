@@ -1,2 +1,2 @@
 ### Java 笔记
-- [基础](https://github.com/crossoverJie/JCSprout/blob/master/MD/Thread-common-problem.md)
+- [基础](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/BASE.md)
