@@ -37,7 +37,9 @@ public class UserController {
 			user.setUserName("javen");
 		}
 
-		log.debug(user.toString());
+		if (user != null) {
+			log.debug(user.toString());
+		}
 		model.addAttribute("user", user);
 		return "index";
 	}
