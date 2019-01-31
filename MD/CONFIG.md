@@ -15,7 +15,7 @@
 jdbc.project.jndiName=java\:comp/env/jdbc/project
 -->
 ```
- 实际连接数据库dbname，jndi的配置tomcat>conf>[config.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/config.xml)
+ 实际连接数据库dbname，jndi的配置tomcat>conf>[config.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/context.xml)
 ```
 <!-- 注入文件
 <context:property-placeholder location="classpath:env.properties"/>
