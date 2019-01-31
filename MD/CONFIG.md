@@ -8,55 +8,45 @@
 - [.gitignore.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/.gitignore)  用于代码提交时忽略一些文件不予提交
 
 * jndi连接
+<code>[相关链接](https://www.cnblogs.com/xdp-gacl/p/4040019.html)</code>
 ```
-//env.properties配置
-/*jdbc.sftqzk.jndiName=java\:comp/env/jdbc/sftqzk*/
-
-//实际连接数据库dbname，jndi的配置name为这里的name
-/*
-<Resource autoConnectRetry="true" connectionsPerHost="100" dbname="justice-lams" factory="org.apache.naming.factory.BeanFactory" host="10.222.1.14" maxWaitTime="20000" name="mongodb/justice-lams" port="27017" type="com.homolo.mongo.MongoDBSource"/>
-*/
-//继承这个类extends Initializer------------------------------------------------------------------
-@Value("${jdbc.sftqzk.jndiName}")
+<!-- 在tomcatde的lib文件夹下添加druid-1.1.12.jar和mysql-connector-java-6.0.6.jar -->
+<!-- env.properties配置
+jdbc.project.jndiName=java\:comp/env/jdbc/project
+-->
+```
+ 实际连接数据库dbname，jndi的配置tomcat>conf>[config.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/config.xml)
+```
+<!-- 注入文件
+<context:property-placeholder location="classpath:env.properties"/>
+等效于注入
+@Configuration
+@PropertySource(name = "web.env", value = "classpath:env.properties")
+-->
+<!--
+@Value("${jdbc.project.jndiName}")
 private String jndiName;
+会得到java\:comp/env/jdbc/project
+通过jdbc/project找到对应的数据库
+-->
 
-@Override
-public void initialize() {
-	try {
-		Context context = new InitialContext();
-		DataSource dataSource = (DataSource) context.lookup(this.jndiName);
-		this.jt = new JdbcTemplate(dataSource);
-	} catch (NamingException e) {
-		this.LOGGER.error("(⊙﹏⊙✿)(⊙﹏⊙✿)(⊙﹏⊙✿)(⊙﹏⊙✿) no data source found with name:{}, can't sync big data.{}", this.jndiName, e.getLocalizedMessage());
-	}
-}
 ```
-<code>配置bean</code>
-```
-@Bean(name = "tk.file.datasource.mongodb")
-Object fileMongoSource(@Value("${tk.file.mongodb.jndiName}") String jndiName) {
-	JndiObjectFactoryBean factory = new JndiObjectFactoryBean();
-	factory.setJndiName(jndiName);
-	return factory;
-}
-```
+
 
 - jdbc链接
 ```
 //pom配置
-/*
 <dependency>
 	<groupId>mysql</groupId>
 	<artifactId>mysql-connector-java</artifactId>
 	<version>5.1.30</version>
 </dependency>
-*/
 //env.properties配置
-/*
+<!--
 mysql.data.url=jdbc:mysql://localhost:3306/xjxzxk?useUnicode=true&characterEncoding=utf-8&useSSL=true
 mysql.data.user=root
 mysql.data.password=123456
-*/
+-->
 -------------------------------------------------------------------------------------------------
 @Value("${mysql.data.url}")
 private String URL;
