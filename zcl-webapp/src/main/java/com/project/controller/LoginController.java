@@ -12,8 +12,6 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
@@ -82,10 +79,8 @@ public class LoginController {
 		if (StringUtils.isBlank(userid)) {
 			model.addAttribute("json", json);
 		}
-		String userUrl = userStr.replaceAll("ACCESS_TOKEN",access_token).replaceAll("USERID",userid);
+		String userUrl = userStr.replaceAll("ACCESS_TOKEN", access_token).replaceAll("USERID", userid);
 		JSONObject userJson = getApiResponse(userUrl);
-
-
 		List<Map<String, Object>> list = jndiConnect.jndiConnect();
 		model.addAttribute("list", list);
 		model.addAttribute("userJson", userJson);
