@@ -21,13 +21,12 @@ import java.security.NoSuchAlgorithmException;
 @Component
 public class DingUtils {
 
-	public static final String appSecret = "1x3vO0od7q19TWlUKpaXbXX9zLGuowRBs_m_sesLAkec2y565Wul1H-6hYAAViiB";
-	public static final String appId = "dingoamnvms8eqby0op9se";
-	public static final String code = "e5c21ad5890b39f883f4342d8b30def3";
+	public static final String youAppSecret = "-8P1emmPpIL3OcdjQLGJittrTRUZmMQUGzAGXCjzjkQLEffxxK6sCXfo-OXqGmq4";
+	public static final String youAppId = "dingoavmpchp8ecm7tibsx";
 
 	public String getSignnature(String timestamp) throws NoSuchAlgorithmException, InvalidKeyException, UnsupportedEncodingException {
 		Mac mac = Mac.getInstance("HmacSHA256");
-		mac.init(new SecretKeySpec(appSecret.getBytes("UTF-8"), "HmacSHA256"));
+		mac.init(new SecretKeySpec(youAppSecret.getBytes("UTF-8"), "HmacSHA256"));
 		byte[] signatureBytes = mac.doFinal(timestamp.getBytes("UTF-8"));
 		String signature = new String(Base64.encodeBase64(signatureBytes));
 		return urlEncode(signature);

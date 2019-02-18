@@ -11,11 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    <table class="table">
-        <thead>
-            <th>${resultJson}</th>
-            <th>${list}</th>
-        </thead>
-    </table>
+    <h3>${list}</h3>
+    <h3>${userid}</h3>
+    <h3>${userInforesultJson}</h3>
+    <h3>${json}</h3>
+    <h3>用户${userJson}</h3>
 </body>
 </html>
