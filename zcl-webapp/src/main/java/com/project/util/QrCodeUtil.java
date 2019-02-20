@@ -4,12 +4,18 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
+import org.apache.commons.io.IOUtils;
 
 import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageOutputStream;
 import javax.swing.filechooser.FileSystemView;
 import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +28,7 @@ import java.util.Map;
  * @date: 19-2-20 .
  */
 public class QrCodeUtil {
+
 	public static void main(String[] args) {
 		String url = "http://www.baidu.com";
 		String path = FileSystemView.getFileSystemView().getHomeDirectory() + File.separator + "testQrcode";
@@ -29,30 +36,38 @@ public class QrCodeUtil {
 		createQrCode(url, path, fileName);
 	}
 
-	public static String createQrCode(String url, String path, String fileName) {
+	private static void createQrCode(String url, String path, String fileName) {
 		try {
 			Map<EncodeHintType, String> hints = new HashMap<EncodeHintType, String>();
 			hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
 			BitMatrix bitMatrix = new MultiFormatWriter().encode(url, BarcodeFormat.QR_CODE, 400, 400, hints);
 			File file = new File(path, fileName);
 			if (file.exists() || ((file.getParentFile().exists() || file.getParentFile().mkdirs()) && file.createNewFile())) {
-				writeToFile(bitMatrix, "jpg", file);
+				writeToFile(bitMatrix, "jpg", file, fileName);
 				System.out.println("搞定：" + file);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
 	}
 
-	static void writeToFile(BitMatrix matrix, String format, File file) throws IOException {
+	static void writeToFile(BitMatrix matrix, String format, File file, String fileName) throws IOException {
 		BufferedImage image = toBufferedImage(matrix);
 		if (!ImageIO.write(image, format, file)) {
 			throw new IOException("Could not write an image of format " + format + " to " + file);
+		} else {
+//		    将二维码图片转成流,拷贝成其他文件
+			ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+			ImageOutputStream imageOutput = ImageIO.createImageOutputStream(byteArrayOutputStream);
+			ImageIO.write(image, format, imageOutput);
+			InputStream inputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+			File systemFile = new File("/home/homolo/testQrcode1/" + fileName);
+			OutputStream output = new FileOutputStream(systemFile);
+			IOUtils.copy(inputStream, output);
 		}
 	}
 
-	static void writeToStream(BitMatrix matrix, String format, OutputStream stream) throws IOException {
+	void writeToStream(BitMatrix matrix, String format, OutputStream stream) throws IOException {
 		BufferedImage image = toBufferedImage(matrix);
 		if (!ImageIO.write(image, format, stream)) {
 			throw new IOException("Could not write an image of format " + format);
