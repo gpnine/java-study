@@ -42,6 +42,13 @@
             <version>${slf4j.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>zcl-webapp</finalName>
