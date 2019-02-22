@@ -5,4 +5,5 @@
 - [相关配置](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/CONFIG.md)
 - [获取二维码](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/QR.md)
 - [跨域](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/ACCESS.md)
+- [java工具类](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/UTIL.md)
 <img src="https://github.com/gpnine/JAVAWeb-Advanced/blob/master/QrCode.png" width="300"/> 
