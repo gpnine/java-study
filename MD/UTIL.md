@@ -7,4 +7,4 @@
 
 [参考](https://www.cnblogs.com/sharpest/p/5473222.html)
 
-[代码](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/src/test/java/com/zcl/DateTest.java)
+[代码](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/web/src/test/java/com/zcl/DateTest.java)

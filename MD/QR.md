@@ -13,4 +13,4 @@
 </dependency>
 ```
 
-- [代码](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/src/main/java/com/project/util/QrCodeUtil.java)
+- [代码](https://github.com/gpnine/java-study/blob/master/web/src/main/java/com/project/util/QrCodeUtil.java)

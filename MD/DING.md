@@ -9,7 +9,7 @@
 扫码后会跳转到REDIRECT_URI这个链接地址
 
 ### 第二种是通过内嵌一个二维码到你系统
- [index.jsp](https://github.com/gpnine/JAVAWeb-Advanced/edit/master/zcl-webapp/src/main/webapp/index.jsp)
+ [index.jsp](https://github.com/gpnine/java-study/blob/master/web/src/main/webapp/index.jsp)
  - 通过[oauth2](https://www.cnblogs.com/flashsun/p/7424071.html)/sns_authorize这个接口跳转，跳转后会拼接一个code（跳转的地址输对了）
  - post请求添加参数{"tmp_auth_code":code}
  - 请求后会返回用户信息

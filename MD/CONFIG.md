@@ -4,8 +4,8 @@
 ```
 <localRepository>改成你的路径</localRepository>
 ```
-### [checkstyle.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/checkstyle.xml)  用于代码规范，在IDEA上安装插件，配置
-### [.gitignore.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/.gitignore)  用于代码提交时忽略一些文件不予提交
+### [checkstyle.xml](https://github.com/gpnine/java-study/blob/master/web/checkstyle.xml)  用于代码规范，在IDEA上安装插件，配置
+### [.gitignore.xml](https://github.com/gpnine/java-study/blob/master/web/.gitignore)  用于代码提交时忽略一些文件不予提交
 
 ### jndi连接
 <code>[相关链接](https://www.cnblogs.com/xdp-gacl/p/4040019.html)</code>
@@ -15,7 +15,7 @@
 jdbc.project.jndiName=java\:comp/env/jdbc/project
 -->
 ```
-实际连接数据库dbname，jndi的配置tomcat>conf>[context.xml](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/context.xml)
+实际连接数据库dbname，jndi的配置tomcat>conf>[context.xml](https://github.com/gpnine/java-study/blob/master/context.xml)
 ```
 <!-- 注入文件
 <context:property-placeholder location="classpath:env.properties"/>
@@ -31,7 +31,7 @@ private String jndiName;
 -->
 ```
 通过这个name找到对应的
-[数据源](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/zcl-webapp/src/main/java/com/project/controller/LoginController.java)
+[数据源](https://github.com/gpnine/java-study/blob/master/web/src/main/java/com/project/controller/LoginController.java)
 ```
 Context context = new InitialContext();
 DataSource dataSource = (DataSource) context.lookup(this.jndiName);
