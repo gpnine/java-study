@@ -6,4 +6,5 @@
 - [获取二维码](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/QR.md)
 - [跨域](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/ACCESS.md)
 - [java工具类](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/UTIL.md)
+- [REST](https://github.com/gpnine/JAVAWeb-Advanced/blob/master/MD/REST.md)
 <img src="https://github.com/gpnine/JAVAWeb-Advanced/blob/master/QrCode.png" width="300"/> 
