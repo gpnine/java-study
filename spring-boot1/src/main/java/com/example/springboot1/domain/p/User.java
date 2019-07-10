@@ -1,4 +1,4 @@
-package com.example.springboot1.domain;
+package com.example.springboot1.domain.p;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +13,7 @@ import javax.persistence.Id;
  * @date: 19-7-10 .
  */
 @Entity
-public class Person {
+public class User {
 
 	@Id
 	@GeneratedValue
@@ -25,12 +25,12 @@ public class Person {
 	@Column(nullable = false)
 	private Integer age;
 
-	public Person(String name, Integer age) {
-		this.name = name;
-		this.age = age;
+	public User() {
 	}
 
-	public Person() {
+	public User(String name, Integer age) {
+		this.name = name;
+		this.age = age;
 	}
 
 	public Long getId() {

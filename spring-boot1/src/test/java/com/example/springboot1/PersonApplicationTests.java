@@ -1,7 +1,7 @@
 package com.example.springboot1;
 
-import com.example.springboot1.domain.Person;
-import com.example.springboot1.domain.PersonRepository;
+import com.example.springboot1.domain.s.Person;
+import com.example.springboot1.domain.s.PersonRepository;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,7 +24,7 @@ public class PersonApplicationTests {
 	private PersonRepository personRepository;
 
 	@Test
-	public void test() throws Exception {
+	public void test() {
 
 		// 创建10条记录
 		personRepository.save(new Person("AAA", 10));

@@ -1,6 +1,5 @@
 package com.example.springboot1;
 
-import com.example.springboot1.controller.UserController;
 import com.example.springboot1.service.UserService;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,17 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.RequestBuilder;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-
-import static org.hamcrest.Matchers.equalTo;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
 /**
@@ -46,7 +34,7 @@ public class UsersApplicationTests {
 	}
 
 	@Test
-	public void test() throws Exception {
+	public void test() {
 		userService.create("a", 1);
 		userService.create("b", 2);
 		userService.create("c", 3);
