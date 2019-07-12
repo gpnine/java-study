@@ -1,5 +1,6 @@
 package com.example.springboot1.controller;
 
+import com.example.springboot1.expection.MyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,5 +17,10 @@ public class HelloController {
 	@RequestMapping("/hello")
 	public String index() {
 		return "Hello World!!!";
+	}
+
+	@RequestMapping("/json")
+	public String json() throws MyException{
+		throw new MyException("发生错误2");
 	}
 }
