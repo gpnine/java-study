@@ -21,7 +21,7 @@ import java.util.List;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-public class DogTests {
+public class MongoTests {
 
 	@Autowired
 	private DogRepository dogRepository;
