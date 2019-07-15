@@ -43,6 +43,7 @@ public class AnyncTaskTests {
 		t.doTaskOne();
 		t.doTaskTwo();
 		t.doTaskThree();
+		Thread.currentThread().join();
 	}
 
 
