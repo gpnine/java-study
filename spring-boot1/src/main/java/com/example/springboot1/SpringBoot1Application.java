@@ -33,6 +33,8 @@ public class SpringBoot1Application {
 			executor.setQueueCapacity(200);
 			executor.setKeepAliveSeconds(60);
 			executor.setThreadNamePrefix("taskExecutor-");
+			executor.setWaitForTasksToCompleteOnShutdown(true);
+			executor.setAwaitTerminationSeconds(60);
 			executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
 			return executor;
 		}

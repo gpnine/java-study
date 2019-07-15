@@ -3,6 +3,7 @@ package com.example.springboot1;
 import com.example.springboot1.async.Task;
 import com.example.springboot1.controller.HelloController;
 import com.example.springboot1.entity.BlogProperties;
+import lombok.SneakyThrows;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.Assert;
@@ -19,6 +20,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -60,5 +62,28 @@ public class AnyncTaskTests {
 		long end = System.currentTimeMillis();
 		System.out.println("任务完成，耗时：" + (end - start) + "毫秒");
 
+	}
+
+	@Test
+	@SneakyThrows
+	public void test2() {
+
+		for (int i = 0; i < 10000; i++) {
+			t.doTaskOne();
+			t.doTaskTwo();
+			t.doTaskThree();
+
+			if (i == 9999) {
+				System.exit(0);
+			}
+		}
+	}
+
+	@Test
+	public void testFuture() throws Exception {
+		Future<String> futureResult = t.run();
+		String result = futureResult.get(5, TimeUnit.SECONDS);
+		// 获取执行结果，这个方法会产生阻塞，会一直等到任务执行完毕才返回
+		System.out.println(result);
 	}
 }
