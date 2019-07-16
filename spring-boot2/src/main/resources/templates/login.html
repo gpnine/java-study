@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:if="${param.error}">
+    用户名或密码错
+</div>
+<div th:if="${param.logout}">
+    您已注销成功
+</div>
+<form th:action="@{/login}" method="post">
+    <div>
+        <lable>用户名：</lable>
+        <input type="text" name="username"/>
+    </div>
+    <div>
+        <lable>密 码：</lable>
+        <input type="password" name="password"/>
+    </div>
+    <div><input type="submit" value="登录"/></div>
+</form>
+</body>
+</html>
