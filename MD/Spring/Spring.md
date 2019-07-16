@@ -3,3 +3,5 @@
 - [整合mysql-支持JdbcTemplate和JPA](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/mysql.md)
 - [整合redis](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/redis.md)
 - [整合mongodb](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/mongo.md)
+- [邮件](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/mail.md)
+- [RabbitMq](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/rabbitMq.md)
