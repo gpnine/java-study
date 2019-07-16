@@ -5,10 +5,12 @@ import com.example.springboot1.domain.p.UserRepository;
 import com.example.springboot1.domain.s.Message;
 import com.example.springboot1.domain.s.MessageRepository;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
@@ -28,6 +30,9 @@ public class JpaMultipleDataSourcesTests {
 	@Autowired
 	private MessageRepository messageRepository;
 
+	@Autowired
+	private CacheManager cacheManager;
+
 	@Test
 	public void test() {
 		userRepository.save(new User("aaa", 10));
@@ -43,5 +48,23 @@ public class JpaMultipleDataSourcesTests {
 		messageRepository.save(new Message("o3", "cccccccccc"));
 
 		Assert.assertEquals(3, messageRepository.findAll().size());
+	}
+
+	@Before
+	public void before() {
+		userRepository.save(new User("AAA", 11));
+	}
+
+	@Test
+	public void testCache() {
+		User u1 = userRepository.findByName("AAA");
+		System.out.println("第一次查询：" + u1.getAge());
+		User u2 = userRepository.findByName("AAA");
+		System.out.println("第二次查询：" + u2.getAge());
+
+		u1.setAge(20);
+		userRepository.save(u1);
+		User u3 = userRepository.findByName("AAA");
+		System.out.println("第三次查询：" + u3.getAge());
 	}
 }
