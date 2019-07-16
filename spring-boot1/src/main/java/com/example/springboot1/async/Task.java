@@ -60,6 +60,7 @@ public class Task {
 		log.info("开始任务，需耗时：" + sleep + "毫秒");
 		Thread.sleep(sleep);
 		log.info("完成任务");
+		log.error("test");
 		return new AsyncResult<>("test");
 	}
 }
