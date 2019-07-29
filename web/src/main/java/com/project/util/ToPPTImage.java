@@ -25,9 +25,9 @@ import java.io.InputStream;
  * @author Chenglin Zhu
  * @date 19-01-29 下午14:00
  */
-public class toPPTImage {
+public class ToPPTImage {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(toPPTImage.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ToPPTImage.class);
 
 	private void toImage2007(InputStream is) throws IOException {
 		XMLSlideShow ppt = new XMLSlideShow(is);
