@@ -1,5 +1,7 @@
 package com.project.entity;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * JAVAWeb-Advanced .
  *
@@ -54,5 +56,21 @@ public class User {
 				+ password + ", age=" + age + "]";
 	}
 
+//	@Override
+//	public boolean equals(Object obj) {
+//		return userName.equals(((User) obj).getUserName());//这里以name为判定标准。
+//	}
 
+
+	@Override
+	public int hashCode() {
+		System.out.println("判断 hashCode");
+		return 1; // 返回1，说明所有新建的对象的哈希值都为1，也就是相同
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		System.out.println("判断 equals");
+		return false; // 返回false
+	}
 }

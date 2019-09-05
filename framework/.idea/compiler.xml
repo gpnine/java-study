@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="framework" />
         <module name="zcl-framework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="framework" target="1.5" />
       <module name="zcl-framework" target="1.5" />
     </bytecodeTargetLevel>
   </component>

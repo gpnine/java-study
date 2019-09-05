@@ -7,5 +7,7 @@ package com.example.springboot1.springenum;
  * @author: Chenglin Zhu .
  * @date: 19-7-16 .
  */
-public class Events {
+public enum Events {
+	PAY,        // 支付
+	RECEIVE     // 收货
 }

@@ -7,5 +7,8 @@ package com.example.springboot1.springenum;
  * @author: Chenglin Zhu .
  * @date: 19-7-16 .
  */
-public class States {
+public enum States {
+	UNPAID,                 // 待支付
+	WAITING_FOR_RECEIVE,    // 待收货
+	DONE
 }
