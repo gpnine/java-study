@@ -5,6 +5,7 @@ import com.project.entity.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.annotation.Import;
 
 /**
  * web .
@@ -15,6 +16,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @EnableAspectJAutoProxy
+@Import({BeanConfig.class})
 public class SpringConfiguration {
 
 	@Bean

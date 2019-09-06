@@ -1,5 +1,8 @@
 package com.project.entity;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
 /**
  * web .
  *
@@ -24,6 +27,7 @@ public class Student {
 		this.age = age;
 	}
 
+	@Bean
 	public Integer getAge() {
 		System.out.println("Age : " + age);
 		return age;

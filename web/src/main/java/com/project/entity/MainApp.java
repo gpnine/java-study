@@ -23,6 +23,7 @@ public class MainApp {
 		student.getAge();
 
 		// JavaConfig配置的方法
+		System.out.println("JavaConfig配置的方法");
 		AnnotationConfigApplicationContext applicationContext
 				= new AnnotationConfigApplicationContext(SpringConfiguration.class);
 
