@@ -1,7 +1,8 @@
 package spring;
 
+import com.project.entity.Student;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * web .
@@ -10,7 +11,11 @@ import org.springframework.context.annotation.Configuration;
  * @author: Chenglin Zhu .
  * @date: 19-9-6 .
  */
-@Configuration
-@ComponentScan(basePackages = { "com.project.*" })
+@ComponentScan
 public class BeanConfig {
+
+	@Bean
+	public Student student() {
+		return new Student(11, "zcl");
+	}
 }

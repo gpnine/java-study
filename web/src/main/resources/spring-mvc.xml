@@ -10,14 +10,12 @@
                         http://www.springframework.org/schema/mvc
                         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
     <!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
-    <context:component-scan base-package="com.project.controller" />
-    <context:component-scan base-package="com.project.util" />
-    <context:component-scan base-package="com.project.spring" />
+    <context:component-scan base-package="com.project" />
     <context:property-placeholder location="classpath:env.properties"/>
     <!-- 扩充了注解驱动，可以将请求参数绑定到控制器参数 -->
     <mvc:annotation-driven/>
     <!-- 静态资源处理  css js imgs -->
-    <mvc:resources location="/resources/**" mapping="/resources/**"/>
+    <mvc:resources location="resources" mapping="/resources/**"/>
 
     <!-- 定义跳转的文件的前后缀 ，视图模式配置-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

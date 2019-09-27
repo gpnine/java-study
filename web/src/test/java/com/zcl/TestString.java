@@ -95,4 +95,13 @@ public class TestString {
 		System.out.println(s1 == s4);// true
 		System.out.println(s2 == s4);
 	}
+
+
+	@Test
+	public void testVariant() {
+		VariantTest variantTest = new VariantTest();
+		VariantTest variantTest2 = new VariantTest();
+		VariantTest variantTest3 = new VariantTest();
+		VariantTest variantTest4 = new VariantTest();
+	}
 }

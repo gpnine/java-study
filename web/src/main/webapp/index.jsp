@@ -12,6 +12,7 @@
 </head>
 <body>
 <div id="login_container"></div>
+<a href="login.jsp">帐号登录</a>
 </body>
 <script src="http://g.alicdn.com/dingding/dinglogin/0.0.5/ddLogin.js"></script>
 <script>

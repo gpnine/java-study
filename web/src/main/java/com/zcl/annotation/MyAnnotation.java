@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * java-study .
  *
- * @description: .
+ * @description: 自定义注解.
  * @author: Chenglin Zhu .
  * @date: 19-4-17 .
  */

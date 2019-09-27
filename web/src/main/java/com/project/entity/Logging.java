@@ -43,6 +43,4 @@ public class Logging {
 		Object result = proceedingJoinPoint.proceed(args);
 		System.out.println("Returning " + result);
 	}
-
-
 }
