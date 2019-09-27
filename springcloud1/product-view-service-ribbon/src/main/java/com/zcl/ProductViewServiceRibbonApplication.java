@@ -21,7 +21,7 @@ import java.util.concurrent.TimeoutException;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class ProductDataServiceApplication {
+public class ProductViewServiceRibbonApplication {
 	public static void main(String[] args) {
 		int port = 0;
 		int defaultPort = 8010;
@@ -51,7 +51,7 @@ public class ProductDataServiceApplication {
 			System.err.printf("端口%d被占用了，无法启动%n", port);
 			System.exit(1);
 		}
-		new SpringApplicationBuilder(ProductDataServiceApplication.class).properties("server.port=" + port).run(args);
+		new SpringApplicationBuilder(ProductViewServiceRibbonApplication.class).properties("server.port=" + port).run(args);
 	}
 
 	@Bean

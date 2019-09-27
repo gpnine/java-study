@@ -2,67 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43fd674-510b-45f6-977a-dc333f17b6ee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcl/entity/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zcl/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zcl/dept.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zcl/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zcl/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_json_json_20090211.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_json_json_20090211.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/EventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/EventConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/SpringBoot1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/SpringBoot1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/StateMachineConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/StateMachineConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/controller/SessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/controller/SessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/springenum/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/springenum/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/springenum/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/java/com/example/springboot1/springenum/States.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot1/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot1/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/eureka-server/src/main/resrouces/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-data-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-data-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/ProductViewServiceRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/client/ProductClientRibbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/socket/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/socket/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/test/java/com/zcl/VariantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/ProductServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/web/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/resources/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/ProductServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/pojo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/web/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/templates/products.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcl/ssm/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zcl/ssm/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zcl/ssm/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zcl/ssm/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/Logging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/spring/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/spring/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/spring/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/spring/SpringConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/src/test/java/com/zcl/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/test/java/com/zcl/TestString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,87 +66,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1615">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/io/Resources.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="720" column="40" selection-start-line="720" selection-start-column="35" selection-end-line="720" selection-end-column="44" />
-              <folding>
-                <element signature="e#15675#15676#0" expanded="true" />
-                <element signature="e#15722#15723#0" expanded="true" />
-                <element signature="e#25464#25465#0" expanded="true" />
-                <element signature="e#25520#25521#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperRegistry.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="67" column="41" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="816">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
-                <element signature="e#6082#6083#0" expanded="true" />
-                <element signature="e#6138#6139#0" expanded="true" />
-                <element signature="e#7009#7010#0" expanded="true" />
-                <element signature="e#7043#7044#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,11 +117,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zcl/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zcl/entity/Dept.java" />
         <option value="$PROJECT_DIR$/src/main/resource/com/zcl/AppTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/zcl/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/com/zcl/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resource/com/zcl/dept.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zcl/AppTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java" />
       </list>
     </option>
   </component>
@@ -234,6 +150,11 @@
           <item name="ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -250,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,40 +195,6 @@
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zcl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zcl" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,20 +218,14 @@
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -351,100 +233,39 @@
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zcl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="defaults" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shzgh-lams-webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/com/zcl" />
-      <recent name="$PROJECT_DIR$/src/main/resource/com/zcl" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/zcl" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zcl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resource" />
       <recent name="$PROJECT_DIR$/src/main/java/com/zcl/ssm" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zcl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/zcl" />
+      <recent name="$PROJECT_DIR$/src/main/resource/com/zcl" />
       <recent name="$PROJECT_DIR$/src/main/java/com/zcl" />
     </key>
   </component>
@@ -460,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testMybatis">
+  <component name="RunManager" selected="Application.MySearchTest2">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -469,6 +290,20 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zcl.App" />
+      <module name="ssm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySearchTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zcl.MySearchTest2" />
       <module name="ssm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -547,6 +382,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySearchTest2" />
         <item itemvalue="JUnit.AppTest.testMybatis" />
         <item itemvalue="JUnit.AppTest.testMybatis (1)" />
         <item itemvalue="Application.App" />
@@ -567,6 +403,8 @@
       <workItem from="1548925564778" duration="1884000" />
       <workItem from="1566350566102" duration="8153000" />
       <workItem from="1566435801409" duration="4763000" />
+      <workItem from="1568790830927" duration="1671000" />
+      <workItem from="1569478625018" duration="16000" />
     </task>
     <servers />
   </component>
@@ -603,12 +441,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21997000" />
+    <option name="totallyTimeSpent" value="23684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2529349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -743,7 +581,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcl/App.java" />
     <entry file="file://$PROJECT_DIR$/target/classes/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/com/zcl/AppTest.class">
@@ -767,14 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1055,6 +884,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/io/Resources.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1069,29 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="e#6082#6083#0" expanded="true" />
-            <element signature="e#6138#6139#0" expanded="true" />
-            <element signature="e#7009#7010#0" expanded="true" />
-            <element signature="e#7043#7044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1099,10 +919,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        <state relative-caret-position="609">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,26 +933,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="720" column="40" selection-start-line="720" selection-start-column="35" selection-end-line="720" selection-end-column="44" />
-          <folding>
-            <element signature="e#15675#15676#0" expanded="true" />
-            <element signature="e#15722#15723#0" expanded="true" />
-            <element signature="e#25464#25465#0" expanded="true" />
-            <element signature="e#25520#25521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="417">
           <caret line="67" column="41" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

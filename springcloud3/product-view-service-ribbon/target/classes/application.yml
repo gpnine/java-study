@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: false   #是否要注册到其他Server上   registerWithEureka等同于register_with_eureka
+    fetchRegistry: false        #是否需要拉取服务信息       fetchRegistry等同于 fetch-registry
+spring:
+  application:
+    name: product-view-service-ribbon
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML5
+    servlet:
+      content-type: text/html

@@ -1,0 +1,14 @@
+#	server:
+#   port: 因为会启动多个 product-data-service, 所以端口号由用户自动设置，推荐 8001,8002,8003
+
+spring:
+  application:
+    name: product-data-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761
+    registerWithEureka: false   #是否要注册到其他Server上   registerWithEureka等同于register_with_eureka
+    fetchRegistry: false        #是否需要拉取服务信息       fetchRegistry等同于 fetch-registry
+  instance:
+    prefer-ip-address: true
