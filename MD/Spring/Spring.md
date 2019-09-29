@@ -7,3 +7,4 @@
 - [整合mongodb](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/mongo.md)
 - [邮件](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/mail.md)
 - [RabbitMq](https://github.com/gpnine/java-study/blob/master/MD/Spring/Spring-boot/rabbitMq.md)
+- [SpringSecurity](https://github.com/gpnine/java-study/blob/master/MD/Spring/SpringSecurity.md)
