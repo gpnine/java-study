@@ -5,3 +5,6 @@
 - 3.重写configure添加HttpSecurity（过滤器）认证
 - 4.通过继承AbstractSecurityWebApplicationInitializer加入安全校验需要的Filter链
 - 5.启用Spring Security，通过继承AbstractAnnotationConfigDispatcherServletInitializer初始化配置
+
+### 配置文件
+- [SpringSecurity快速入门](https://www.jianshu.com/p/8212a559d633)
