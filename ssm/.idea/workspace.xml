@@ -2,51 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43fd674-510b-45f6-977a-dc333f17b6ee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud1/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/eureka-server/src/main/resrouces/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-data-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-data-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/ProductViewServiceRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/client/ProductClientRibbon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/java/com/zcl/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud1/product-view-service-ribbon/src/main/resources/templates/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyInterface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/socket/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/socket/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/test/java/com/zcl/VariantTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/pojo/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/java/cn/how2j/springboot/web/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/src/main/resources/templates/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/ProductServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/pojo/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/cn/how2j/springboot/web/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/target/classes/templates/products.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/spring/OAuth2ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/applicationContext_security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zcl/entity/Dept.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/project/entity/Logging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/com/zcl/annotation/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/spring/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/spring/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/main/java/spring/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/spring/SpringConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/test/java/com/zcl/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/test/java/com/zcl/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/spring/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/spring/SpringSecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +52,13 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1615">
-              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zcl/MySearchTest2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
@@ -85,6 +68,12 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -171,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,50 +172,31 @@
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zcl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -233,7 +204,7 @@
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zcl" type="462c0819:PsiDirectoryNode" />
@@ -242,7 +213,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,6 +375,7 @@
       <workItem from="1566435801409" duration="4763000" />
       <workItem from="1568790830927" duration="1671000" />
       <workItem from="1569478625018" duration="16000" />
+      <workItem from="1569736685098" duration="131000" />
     </task>
     <servers />
   </component>
@@ -441,7 +412,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23684000" />
+    <option name="totallyTimeSpent" value="23815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
@@ -581,7 +552,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/com/zcl/AppTest.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -953,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -967,6 +937,10 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

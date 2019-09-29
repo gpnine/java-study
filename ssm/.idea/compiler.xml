@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zcl-ssm" />
-        <module name="ssm" />
+        <module name="springsecurity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springsecurity" target="1.7" />
       <module name="ssm" target="1.7" />
       <module name="zcl-ssm" target="1.7" />
     </bytecodeTargetLevel>
