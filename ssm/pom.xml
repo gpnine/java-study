@@ -79,7 +79,7 @@
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
-            <version>2.3.3.RELEASE</version>
+            <version>2.3.6.RELEASE</version>
         </dependency>
         <!-- MyBatis 使用简单的 XML或注解用于配置和原始映射，将接口和 Java 的POJOs（Plain Old Java Objects，普通的 Java对象）映射成数据库中的记录 -->
         <dependency>
