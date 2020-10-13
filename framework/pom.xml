@@ -23,7 +23,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
         <!-- servlet添加<scope>provided</scope>只在编译和测试的时候用，防止tomcat中也有servlet-api包会发生了冲突，比如:HttpServletRequest，HttpServletResponse，HttpSession -->
